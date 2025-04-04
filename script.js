@@ -1,6 +1,6 @@
 let score = 0;
 let gameCount = 0;
-let timeLeft = 160;
+let timeLeft = 600;
 const scoreDisplay = document.getElementById('score');
 const timerDisplay = document.getElementById('timer');
 const img = document.getElementById('bananaImage');
