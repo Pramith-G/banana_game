@@ -1,0 +1,72 @@
+/* Banana-themed login page */
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+/* Background images on both corners */
+body::before, body::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body::before {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg');
+  top: 20px;
+  left: 20px;
+}
+
+body::after {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg');
+  bottom: 20px;
+  right: 20px;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(228, 228, 222);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 300px;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #fdd835;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #fbc02d;
+}
+
+::placeholder {
+  color: #a77f00;
+}

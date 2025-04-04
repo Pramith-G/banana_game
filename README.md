@@ -24,3 +24,11 @@ Welcome to **Banana Game** — a fun and interactive multiplayer web-based game 
 - MySQL (for storing user accounts and scores)
 
 ---
+
+## 🚀 How to Run Locally
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/Pramith-G/banana-game.git
+
+"# Banana-Game" 
