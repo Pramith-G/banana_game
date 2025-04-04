@@ -111,7 +111,7 @@
 <body>
     <div id="game">
         <div id="score">Score: 0</div>
-        <div id="timer">Time: 160</div>
+        <div id="timer">Time: 600</div>
         <div id="bananaBox">
             <img id="bananaImage" src="" width="800" height="400">
         </div>
